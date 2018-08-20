@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Цены и варианты защиты</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div><img src="icons/shield.png" alt="logo"></div>
+            <div><a href="#">Цены и варианты защиты</a></div>
+            
+        </div>
+        
+
+    </header>
+    <main>
+
+        <section class="cars">
+            <div class="mini-class">
+                <p class="text-w-black">класс mini*</p>
+                <div class="car-mini"></div>
+                <p class="text-w-orange">рассчитать стоимость</p>
+            </div>       
+            <div class="medium-class">
+                <p class="text-w-black">средний класс*</p>
+                <div class="car-medium"></div>
+                <p class="text-w-orange">рассчитать стоимость</p>
+            </div>       
+            <div class="premium-class">
+                <p class="text-w-black">премиум класс*</p>
+                <div class="car-premium"></div>
+                <p class="text-w-orange">рассчитать стоимость</p>
+            </div>       
+        </section>
+
+        <section class="plan-select">
+            <div class="car-details">
+                <div class="car-options-photo"></div>
+                <div class="details-select display-toggle-o">
+                	<div class="parts-img display-toggle-o"><img src="icons/images/фары.png"><p>Оптика</p></div>
+                	<div class="parts-img display-toggle-o"><img src="icons/images/пороги_внутренние.png"><p>Пороги внутренние</p></div>
+                	<div class="parts-img display-toggle-o"><img src="icons/images/пороги_внутренние.png"><p>Пороги наружные</p></div>
+                	<div class="parts-img display-toggle-o"><img src="icons/images/торцы_дверей.png"><p>Торцы дверей</p></div>
+                	<div class="parts-img display-toggle-o"><img src="icons/images/часть_крыльев.png"><p>Часть крыльев</p></div>
+                	<div class="parts-img display-toggle-o"><img src="icons/images/капот_полностью.png"><p>Капот</p></div>
+                	<div class="parts-img display-toggle-o"><img src="icons/images/передний_бампер.png"><p>Передний бампер</p></div>
+                	<div class="parts-img display-toggle-o"><img src="icons/images/задний_бампер.png"><p>Задний бампер</p></div>
+                </div>          
+                <div class="price">
+                    <div class="price-text">
+                        <p class="text-orange">Цена:</p><br>
+                    </div>
+                    <div class="price-button">
+                        <p class="materials">Материалы + работа <span class="text-orange amount">7000 руб.</span></p>
+                        <div><a href="#">Перезвоните мне</a></div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="plans-menu display-toggle">
+                <ul>
+                    <li class="main"><a href="#">Минимальный</a></li>
+                    <li class="main"><a href="#">Стандарт</a></li>
+                    <li class="main"><a href="#">Стандарт+</a></li>
+                    <li class="main selected-item" id="item3"><a href="#">Стандарт++</a></li>
+                    <li class="main"><a href="#">Стандарт+++</a></li>
+                    <li class="main"><a href="#">Целиком</a></li>
+                    <li class="arrow"><a  id="submenu" >Частями <img src="icons/arrow.png"> </a>
+			                    <li class="sub display-toggle "><a href="#">Оптика</a></li>
+			                    <li class="sub display-toggle "><a href="#">Пороги внутренние</a></li>
+			                    <li class="sub display-toggle "><a href="#">Пороги наружные</a></li>
+			                    <li class="sub display-toggle "><a href="#">Двери (4шт)</a></li>
+			                    <li class="sub display-toggle "><a href="#">Задние крылья</a></li>
+			                    <li class="sub display-toggle "><a href="#">Капот</a></li>
+			                    <li class="sub display-toggle "><a href="#">Передний бампер</a></li>
+			                    <li class="sub display-toggle "><a href="#">Задний бампер</a></li>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+
+<footer>
+
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
